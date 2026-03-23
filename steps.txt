@@ -16,3 +16,12 @@ main.py
 python main.py 
 
 ---------------------------------------------------------------------
+upload all the data with images zip upload it on github  and then copy path of the raw file
+
+utils > common.py  
+
+update the config.yaml 
+
+research > data_ingestion.ipynb 
+
+-----------------------------------------------------------------------
