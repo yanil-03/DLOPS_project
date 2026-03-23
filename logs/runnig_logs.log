@@ -1,9 +1,10 @@
 [2026-03-23 15:02:23,293: INFO: main: Welcome to my custom log]
-[2026-03-23 15:49:35,750: INFO: common: YAML file config\config.yaml loaded successfully]
-[2026-03-23 15:49:35,752: INFO: common: YAML file params.yaml loaded successfully]
-[2026-03-23 15:49:35,753: INFO: common: created directory at: artifacts]
-[2026-03-23 15:49:35,755: INFO: common: created directory at: artifacts/data_ingestion]
-[2026-03-23 15:49:37,682: INFO: 222777804: artifacts/data_ingestion/data.zip download! with following info: 
+[2026-03-23 19:04:10,433: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2026-03-23 19:04:10,434: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-03-23 19:04:10,435: INFO: common: YAML file params.yaml loaded successfully]
+[2026-03-23 19:04:10,436: INFO: common: created directory at: artifacts]
+[2026-03-23 19:04:10,437: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-23 19:04:14,542: INFO: data_ingestion: artifacts\data_ingestion\data.zip download! with following info: 
 Connection: close
 Content-Length: 11616915
 Cache-Control: max-age=300
@@ -14,19 +15,22 @@ Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: E93C:6300C:B9344:18D587:69C10FB3
+X-GitHub-Request-Id: 204A:A8DFD:3AC1B58:42F42A6:69C14155
 Accept-Ranges: bytes
-Date: Mon, 23 Mar 2026 10:19:39 GMT
+Date: Mon, 23 Mar 2026 13:34:16 GMT
 Via: 1.1 varnish
-X-Served-By: cache-del-vibw2260039-DEL
-X-Cache: HIT
+X-Served-By: cache-del-vibw2260024-DEL
+X-Cache: MISS
 X-Cache-Hits: 0
-X-Timer: S1774261179.340068,VS0,VE253
+X-Timer: S1774272854.095930,VS0,VE2159
 Vary: Authorization,Accept-Encoding
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 739a8ed3562d0f167bdeceb9c88c2f8db010aaf6
-Expires: Mon, 23 Mar 2026 10:24:39 GMT
-Source-Age: 0
+X-Fastly-Request-ID: 2bb95a79a3493b7be0795857d0f6fa85329a136f
+Expires: Mon, 23 Mar 2026 13:39:16 GMT
+Source-Age: 2
 
 ]
+[2026-03-23 19:04:14,705: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
