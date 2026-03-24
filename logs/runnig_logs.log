@@ -118,3 +118,45 @@ x==========x]
 [2026-03-24 12:51:15,152: INFO: main: >>>>>> Training completed <<<<<<
 
 x==========x]
+[2026-03-24 13:50:17,997: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2026-03-24 13:50:18,000: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-03-24 13:50:18,001: INFO: common: YAML file params.yaml loaded successfully]
+[2026-03-24 13:50:18,001: INFO: common: created directory at: artifacts]
+[2026-03-24 13:50:18,002: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-03-24 13:50:18,002: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2026-03-24 13:50:18,143: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-03-24 13:50:18,144: INFO: main: >>>>>> Prepare Base Model started <<<<<<]
+[2026-03-24 13:50:18,145: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-03-24 13:50:18,146: INFO: common: YAML file params.yaml loaded successfully]
+[2026-03-24 13:50:18,147: INFO: common: created directory at: artifacts]
+[2026-03-24 13:50:18,147: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-03-24 13:50:18,455: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-03-24 13:50:18,569: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-03-24 13:50:18,588: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-03-24 13:50:18,690: INFO: main: >>>>>> Prepare Base Model completed <<<<<<
+
+x==========x]
+[2026-03-24 13:50:18,691: INFO: main: >>>>>> Training started <<<<<<]
+[2026-03-24 13:50:18,692: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-03-24 13:50:18,694: INFO: common: YAML file params.yaml loaded successfully]
+[2026-03-24 13:50:18,695: INFO: common: created directory at: artifacts]
+[2026-03-24 13:50:18,696: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2026-03-24 13:50:18,696: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2026-03-24 13:50:18,697: INFO: common: created directory at: artifacts\prepare_training]
+[2026-03-24 13:50:18,822: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-24 13:51:24,367: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-03-24 13:51:24,478: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-03-24 13:51:24,568: INFO: main: >>>>>> Training completed <<<<<<
+
+x==========x]
+[2026-03-24 13:51:24,569: INFO: main: >>>>>> Evaluation started <<<<<<]
+[2026-03-24 13:51:24,571: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-03-24 13:51:24,572: INFO: common: YAML file params.yaml loaded successfully]
+[2026-03-24 13:51:24,573: INFO: common: created directory at: artifacts]
+[2026-03-24 13:51:24,735: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-24 13:51:31,810: INFO: common: json file saved at: scores.json]
+[2026-03-24 13:51:31,811: INFO: main: >>>>>> Evaluation completed <<<<<<
+
+x==========x]
