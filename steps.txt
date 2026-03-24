@@ -240,6 +240,7 @@ newgrp docker
 -----------------------------------------
 
 
+
 step-4 (Configure EC2 as self-hosted runner)
 
 Go to github ---> Settings ----> Actions ---> Runners ----> New self-hosted runner ----> select Linux ---> and copy their scripts and paste it into our ec2 server one by one . 
