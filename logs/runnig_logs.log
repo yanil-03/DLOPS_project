@@ -40,55 +40,7 @@ x==========x]
 [2026-03-23 19:52:20,920: INFO: common: created directory at: artifacts/prepare_base_model]
 [2026-03-23 19:52:21,200: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
 [2026-03-23 19:52:21,330: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
-[2026-03-23 19:52:21,352: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
-[2026-03-24 11:55:22,120: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
-[2026-03-24 11:55:22,123: INFO: common: YAML file config\config.yaml loaded successfully]
-[2026-03-24 11:55:22,125: INFO: common: YAML file params.yaml loaded successfully]
-[2026-03-24 11:55:22,125: INFO: common: created directory at: artifacts]
-[2026-03-24 11:55:22,126: INFO: common: created directory at: artifacts/data_ingestion]
-[2026-03-24 11:57:34,878: INFO: data_ingestion: artifacts\data_ingestion\data.zip download! with following info: 
-Connection: close
-Content-Length: 11616915
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 7FC6:E8D53:1D19EC4:2103E6F:69C22C50
-Accept-Ranges: bytes
-Date: Tue, 24 Mar 2026 06:25:52 GMT
-Via: 1.1 varnish
-X-Served-By: cache-del-vibw2260036-DEL
-X-Cache: HIT
-X-Cache-Hits: 0
-X-Timer: S1774333552.661279,VS0,VE1063
-Vary: Authorization,Accept-Encoding
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 3bb1f5af0133ff06686d5771f6ea63a255cce123
-Expires: Tue, 24 Mar 2026 06:30:52 GMT
-Source-Age: 0
-
-]
-[2026-03-24 11:57:35,072: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
-
-x==========x]
-[2026-03-24 11:57:35,072: INFO: main: >>>>>> Prepare Base Model started <<<<<<]
-[2026-03-24 11:57:35,073: INFO: common: YAML file config\config.yaml loaded successfully]
-[2026-03-24 11:57:35,074: INFO: common: YAML file params.yaml loaded successfully]
-[2026-03-24 11:57:35,075: INFO: common: created directory at: artifacts]
-[2026-03-24 11:57:35,075: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
-Traceback (most recent call last):
-  File "D:\REGEX\DLOPS_project\main.py", line 28, in <module>
-    prepare_base_model.main()
-    ~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "D:\REGEX\DLOPS_project\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 15, in main
-    prepare_base_model_config = config.get_prepare_base_model_config()
-                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2026-03-23 19:52:21,352: WARNING: saving_api: You are saving your model as an HDF5 file via `
 [2026-03-24 11:58:39,706: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
 [2026-03-24 11:58:39,709: INFO: common: YAML file config\config.yaml loaded successfully]
 [2026-03-24 11:58:39,711: INFO: common: YAML file params.yaml loaded successfully]
@@ -109,3 +61,11 @@ x==========x]
 [2026-03-24 11:58:40,556: INFO: main: >>>>>> Prepare Base Model completed <<<<<<
 
 x==========x]
+[2026-03-24 12:07:38,987: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-03-24 12:07:38,988: INFO: common: YAML file params.yaml loaded successfully]
+[2026-03-24 12:07:38,989: INFO: common: created directory at: artifacts]
+[2026-03-24 12:15:37,358: INFO: common: YAML file config\config.yaml loaded successfully]
+[2026-03-24 12:15:37,360: INFO: common: YAML file params.yaml loaded successfully]
+[2026-03-24 12:15:37,360: INFO: common: created directory at: artifacts]
+[2026-03-24 12:15:37,362: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2026-03-24 12:15:37,363: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
