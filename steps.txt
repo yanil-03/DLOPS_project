@@ -109,3 +109,63 @@ Now in Pipeline folder ----> create stage_03_training.py
 
 Now run python main.py 
 -----------------------------------------------------------------------------
+
+ow create a new file '05_model_evaluation.ipynb'  in research folder . 
+
+### Now we will see that 'score.json' file has been created where we can see our total loss and accuracy of our training model . 
+We can delete this score.json 
+
+
+Now in entity folder ---> config_entity file we will add EvaluationConfig class there . 
+
+
+Now in config folder ---> configuration.py we will add get_validation_config function . 
+and we will import Pathlib library also. 
+
+Now in 'components' folder --> create ---> 'evaluation.py' 
+
+Now in pipeline' folder ---> create ---> 'stage_04_evaluation.py' 
+
+
+Now we will add STAGE_NAME = "Evaluation stage" in main.py 
+
+
+Now open the terminal and write python main.py 
+
+
+Now we can push ouur all code to github . 
+--------------------------------------------------------------------------
+
+Now open dvc.yaml and write all scripting . 
+
+Now open the terminal and write 
+
+dvc init 
+
+when we execute this command it will generate .dvcfolder  
+
+Now for excute the command step by step from dvc.yaml we have to write this n our terminal . 
+
+dvc repro 
+
+
+Now we will see all logs in dvc.lock 
+
+Now open the terminal and write 
+
+dvc dag 
+
+-------------------------------------------------------                                                             
+Now in 'Pipeline' folder --> create file ---> 'predict.py' and write all code .
+
+Now create app.py file ---> write all code .
+
+In templates folder ---> index.html --> write code ..
+
+Now open the terminal and write python app.py 
+
+Now click on upload and select image and click on predict ---> It will return result . 
+
+
+--------------------------------------------------
+
